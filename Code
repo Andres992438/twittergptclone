@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <!-- Add your CSS and JavaScript links here -->
+</head>
+<body>
+    <header>
+        <h1>Twitter Clone</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notifications</a>
+            <a href="#">Messages</a>
+        </nav>
+        <input type="text" placeholder="Search" />
+        <button>Log in</button>
+    </header>
+
+    <main>
+        <aside>
+            <h2>trends</h2>
+            <ul>
+                <li>#saveamerica</li>
+                <li>#tiktokstuff</li>
+                <li>#idk</li>
+            </ul>
+        </aside>
+
+        <section>
+            <form>
+                <textarea placeholder="What's happening?"></textarea>
+                <button type="submit">Tweet</button>
+            </form>
+            <ul>
+                <!-- Replace these list items with dynamically generated tweets -->
+                <li>
+                    <h3>andres99</h3>
+                    <p>I'm the creator</p>
+                </li>
+                <li>
+                    <h3>Ahmad</h3>
+                    <p>official first tweet</p>
+                </li>
+            </ul>
+        </section>
+
+        <aside>
+            <h2>Who to follow</h2>
+            <ul>
+                <li>soneone</li>
+                <li>Ahmad</li>
+                <li>andres99</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Twitter GPT Clone &copy; 2023</p>
+    </footer>
+</body>
+</html>
